@@ -33,3 +33,37 @@
     font-weight: bold;
 }
 
+.titles{
+    font-family: Roboto , sans-serif;
+    color: #234a6a;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.subtitles{
+    font-family: Roboto , sans-serif;
+    color: skyblue;
+    font-weight: inherit;
+    font-size: 60px;
+}
+
+.sections_text {
+    font-family: Roboto , sans-serif;
+    color: steelblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sections_text ul{
+    font-family: Roboto , sans-serif;
+    color: skyblue;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.container-about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
