@@ -6,7 +6,7 @@
     list-style-type: none;
 }
 
-.nav_bar_1{
+.nav_bar{
     text-decoration: none;
     background-color: #234a6a;
     display: flex;
@@ -14,18 +14,18 @@
     height: 80px;
 }
 
-.nav_bar_1 ul{
+.nav_bar ul{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin-left: 40px;
 }
-.nav_bar_1 li{
+.nav_bar li{
         margin-right: 20px;
 }
 
 
-.nav_bar_1 ul li a{
+.nav_bar ul li a{
     text-decoration: none;
     font-family: 'Roboto' , sans-serif;
     color: dodgerblue;
@@ -76,5 +76,31 @@
     background-color: transparent;
     font-family: Roboto , sans-serif;
     color: #234a6a;
+}
 
+.footer{
+    text-decoration: none;
+    background-color: #234a6a;
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+}
+
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.footer li{
+    margin-right: 20px;
+}
+
+
+.footer ul li a{
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    color: dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
 }
