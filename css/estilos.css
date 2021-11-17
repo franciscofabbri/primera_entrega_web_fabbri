@@ -85,6 +85,36 @@ header{
     background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
 }
 
+/*Who we are section*/
+.container-persons {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(39,151,228);
+    background: linear-gradient(90deg, rgba(39,151,228,0.4962185557816877) 0%, rgba(79,179,240,1) 47%, rgba(222,237,255,1) 100%);
+}
+
+.container-persons .card-person {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    background-color: steelblue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 3px 0px #0000005e;
+    color: white;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 20px;
+}
+
+.container-persons .card-person img {
+    width: 80%;
+}
+/*Who we are section end*/
+
+
+
+/*What we do section*/
+
 .container-what-we-do{
     display: flex;
     align-items: center;
@@ -125,7 +155,7 @@ header{
 .container-what-we-do ul li{
     margin-left: 5%;
 }
-
+/*What we do section END*/
 
 /*Return button*/
 .return_button{
