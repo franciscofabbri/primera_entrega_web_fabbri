@@ -6,12 +6,9 @@
     list-style-type: none;
 }
 
-
-
 /* NAVBAR */
-
 header{
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -47,12 +44,11 @@ header{
 .nav_bar ul li a:hover{
     color: steelblue;
 }
-
 /* END NAVBAR */
 
 .titles{
     font-family: Roboto , sans-serif;
-    color: #234a6a;
+    color: #8bcbff;
     font-weight: bolder;
     font-size: 60px;
 }
@@ -61,7 +57,7 @@ header{
     font-family: Roboto , sans-serif;
     color: skyblue;
     font-weight: inherit;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .sections_text {
@@ -83,14 +79,18 @@ header{
     align-items: center;
     justify-content: space-evenly;
     background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 117px;
 }
 
 /*Who we are section*/
+.container-who-we-are{
+    padding: 150px;
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+}
+
 .container-persons {
     display: flex;
     flex-wrap: wrap;
-    background: rgb(39,151,228);
-    background: linear-gradient(90deg, rgba(39,151,228,0.4962185557816877) 0%, rgba(79,179,240,1) 47%, rgba(222,237,255,1) 100%);
 }
 
 .container-persons .card-person {
@@ -100,7 +100,7 @@ header{
     height: 400px;
     background-color: steelblue;
     border-radius: 10px;
-    box-shadow: 0px 5px 3px 0px #0000005e;
+    box-shadow: 5px 3px #0000005e;
     color: white;
     font-family: "Roboto Thin", sans-serif;
     font-size: 20px;
@@ -114,12 +114,12 @@ header{
 
 
 /*What we do section*/
-
 .container-what-we-do{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 150px;
 }
 
 .title-what-we-do{
@@ -135,27 +135,92 @@ header{
     font-family: Roboto , sans-serif;
     color: skyblue;
     font-weight: inherit;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .sections_text-what-we-do{
     font-family: Roboto , sans-serif;
     color: steelblue;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .sections_text-what-we-do ul {
     font-family: Roboto , sans-serif;
     color: skyblue;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .container-what-we-do ul li{
     margin-left: 5%;
 }
 /*What we do section END*/
+
+/*What we know section*/
+.container-what-we-know{
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 120px;
+}
+
+.container-techs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container-techs img{
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+/*What we know section end*/
+
+/*Where we are section*/
+
+.container-where-we-are{
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    justify-content: center;
+    padding: 200px;
+}
+/*Where we are section end*/
+
+.message_box {
+    width: 45%;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+.container-contact-us{
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 100px;
+}
+.sections_text-contact-us {
+    font-family: Roboto , sans-serif;
+    color: #062d4d;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-join-us{
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 120px;
+}
+
+.container-join-us img{
+    size: 10px;
+}
+
+.send_button {
+    width: 10%;
+    height: 40px;
+    margin: auto;
+    position: relative;
+}
 
 /*Return button*/
 .return_button{
@@ -165,17 +230,17 @@ header{
     right: 10px;
     background-color: transparent;
     font-family: Roboto , sans-serif;
-    color: #234a6a;
+    color: lightskyblue;
 }
 /*Return button end */
 
 /*FOOTER*/
 .footer{
     text-decoration: none;
-    background-color: #234a6a;
+    background-color: white;
     display: flex;
     justify-content: flex-start;
-    height: 40px;
+    height: 25px;
 }
 
 .footer ul{
@@ -188,13 +253,11 @@ header{
     margin-right: 20px;
 }
 
-
 .footer ul li a{
     text-decoration: none;
     font-family: 'Roboto' , sans-serif;
     color: dodgerblue;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
 }
-
 /*FOOTER END*/
