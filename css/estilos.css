@@ -11,7 +11,7 @@
     background-color: #234a6a;
     display: flex;
     justify-content: flex-start;
-    height: 100px;
+    height: 80px;
 }
 
 .nav_bar_1 ul{
@@ -66,4 +66,15 @@
     align-items: center;
     justify-content: space-evenly;
     margin-left: 40px;
+}
+
+.return_button{
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background-color: transparent;
+    font-family: Roboto , sans-serif;
+    color: #234a6a;
+
 }
